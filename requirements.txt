@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+twilio
+anthropic
+httpx
+python-multipart
