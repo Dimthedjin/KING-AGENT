@@ -82,7 +82,7 @@ Question du gérant: {user_message}"""
     # Appel Claude
     try:
         response = anthropic_client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-OPUS-4-5",
             max_tokens=500,
             system=SYSTEM_PROMPT,
             messages=conversations[user_number]
